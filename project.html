@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPS ASSOCIATE'S</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Arial", sans-serif;
+        }
+
+        body {
+    background: url(images/image9.jpg) no-repeat center center fixed;
+    background-size: cover; /* Makes the image cover the entire screen */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #d2b220;
+            text-transform: uppercase;
+        }
+
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .project-card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+            border-left: 5px solid #3498db;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .project-link {
+            display: inline-block;
+            text-decoration: none;
+            background: #3498db;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .project-link:hover {
+            background: #2980b9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .project-container {
+                grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Our Recent Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Tax Compliance Audit</h3>
+            <p>Conducted a full tax audit for a multinational company ensuring 100% compliance.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Financial Risk Assessment</h3>
+            <p>Analyzed financial risks for a startup, optimizing their cash flow & investment plans.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>GST Filing & Advisory</h3>
+            <p>Helped businesses streamline GST filing and maximize tax benefits efficiently.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Company Valuation</h3>
+            <p>Performed accurate valuation for an upcoming merger, assessing assets & liabilities.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Forensic Accounting</h3>
+            <p>Investigated financial fraud & implemented strong control mechanisms.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Payroll Management System</h3>
+            <p>Designed an efficient payroll system ensuring smooth salary processing & compliance.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Investment Planning</h3>
+            <p>Guided businesses on profitable investment strategies for long-term growth.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Internal Financial Audit</h3>
+            <p>Conducted an internal audit for a corporation, enhancing financial accuracy & security.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+    </div>
+
+</body>
+</html>

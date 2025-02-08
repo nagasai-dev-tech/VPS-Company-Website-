@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPS ASSOCIATE'S</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* About Section */
+        .about-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #ff4b5c, #6a5af1);
+            color: white;
+            border-bottom: 10px solid #2d3e50;
+            position: relative;
+        }
+
+        .about-section h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .about-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button Styling */
+        .about-btn {
+            background-color: #ff6f61;
+            padding: 12px 30px;
+            font-size: 18px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .about-btn:hover {
+            background-color: #f57c00;
+            transform: translateX(-50%) scale(1.1);
+        }
+
+        .about-btn:active {
+            background-color: #d94c0b;
+        }
+
+        /* Mission and Vision Section */
+        .mission-vision {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 40px 0;
+        }
+
+        .mission, .vision {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            width: 45%;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .mission h3, .vision h3 {
+            color: #2d3e50;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .mission p, .vision p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #777;
+        }
+
+        .mission:hover, .vision:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Team Section */
+        .team-section {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .team-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #2d3e50;
+        }
+
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .team-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .team-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-card h3 {
+            color: #2d3e50;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .team-card p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>We are a professional Chartered Accountant firm offering services in tax planning, auditing, financial advisory, and more. 
+            <br>Our team of experts is dedicated to providing high-quality financial services tailored to your business needs.</p>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section class="mission-vision" id="mission">
+        <div class="mission">
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower businesses with the financial knowledge they need to succeed. We aim to provide high-quality services and advice that enhance our clients' financial health and long-term growth.</p>
+        </div>
+        <div class="vision">
+            <h3>Our Vision</h3>
+            <p>To be a trusted partner for businesses in managing their financial challenges while fostering growth, integrity, and accountability in all aspects of financial management.</p>
+        </div>
+        <a href="team.html" class="about-btn">Meet My Team</a>
+    </section>
+
+    
+
+</body>
+</html>
